@@ -1,13 +1,14 @@
 language: node_js 
 node_js:
   - node
+
 dist: bionic 
 sudo: required 
 
 notifications:
   email:
     recipients: 
-	azilaye@gmail.com
+	- azilaye@gmail.com
     on_success: always
     on_failure: always 
 branches:
